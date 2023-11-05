@@ -1,0 +1,34 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+website
+
+# Files from Forge MDK
+forge*changelog.txt
+gradle
+
+# README tester
+.github/readmetester/.gradle
+.github/readmetester/build*
+.github/readmetester/gradle
+.github/readmetester/gradlew
+.github/readmetester/src/main/resources/META-INF/mods.toml
