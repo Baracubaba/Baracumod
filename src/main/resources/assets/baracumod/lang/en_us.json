@@ -1,4 +1,9 @@
 {
   "item.baracumod.baracubamium": "Baracubamium",
-  "item.baracumod.raw_baracubamium": "Raw Baracubamium"
+  "item.baracumod.raw_baracubamium": "Raw Baracubamium",
+
+  "block.baracumod.baracubamium_block": "Block of Baracubamium",
+  "block.baracumod.raw_baracubamium_block": "Block of Raw Baracubamium",
+
+  "creativetab.baracumod_tab": "Baracumod Tab"
 }

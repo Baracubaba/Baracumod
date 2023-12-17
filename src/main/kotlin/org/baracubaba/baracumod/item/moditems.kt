@@ -8,7 +8,7 @@ import net.minecraftforge.registries.RegistryObject
 import org.baracubaba.baracumod.Baracumod
 
 object ModItems {
-    private val ITEMS: DeferredRegister<Item> = DeferredRegister.create(ForgeRegistries.ITEMS, Baracumod.MODID)
+    val ITEMS: DeferredRegister<Item> = DeferredRegister.create(ForgeRegistries.ITEMS, Baracumod.MODID)
 
     val BARACUBAMIUM: RegistryObject<Item> = ITEMS.register("baracubamium") { Item(Item.Properties()) }
     val RAW_BARACUBAMIUM: RegistryObject<Item> = ITEMS.register("raw_baracubamium") { Item(Item.Properties()) }

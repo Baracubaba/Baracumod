@@ -14,8 +14,8 @@ plugins {
     id 'idea'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
-    id 'org.jetbrains.kotlin.jvm' version '1.9.20'
-    id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.20'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.21'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.21'
 }
 
 apply plugin: 'org.spongepowered.mixin'

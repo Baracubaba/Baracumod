@@ -10,10 +10,10 @@ import org.apache.logging.log4j.LogManager
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent
 import net.minecraftforge.eventbus.api.SubscribeEvent
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent
+import org.baracubaba.baracumod.block.ModBlocks
 import org.baracubaba.baracumod.item.ModItems
 import thedarkcolour.kotlinforforge.forge.MOD_BUS
 import thedarkcolour.kotlinforforge.forge.runForDist
-import thedarkcolour.kotlinforforge.forge.MOD_CONTEXT
 
 @Mod(Baracumod.MODID)
 object Baracumod {
@@ -22,6 +22,7 @@ object Baracumod {
 
     init {
         ModItems.register(MOD_BUS)
+        ModBlocks.register(MOD_BUS)
 
         MinecraftForge.EVENT_BUS.register(this)
         MOD_BUS.addListener(::commonSetup)
@@ -42,7 +43,12 @@ object Baracumod {
             event.accept(ModItems.BARACUBAMIUM)
             event.accept(ModItems.RAW_BARACUBAMIUM)
         }
+        if(event.tabKey == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BARACUBAMIUM_BLOCK);
+            event.accept(ModBlocks.RAW_BARACUBAMIUM_BLOCK);
+        }
     }
+
 
     @SubscribeEvent
     fun onServerStarting(event: ServerStartingEvent) {
