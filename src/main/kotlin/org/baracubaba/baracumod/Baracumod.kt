@@ -11,6 +11,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent
 import net.minecraftforge.eventbus.api.SubscribeEvent
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent
 import org.baracubaba.baracumod.block.ModBlocks
+import org.baracubaba.baracumod.item.ModCreativeModeTabs
 import org.baracubaba.baracumod.item.ModItems
 import thedarkcolour.kotlinforforge.forge.MOD_BUS
 import thedarkcolour.kotlinforforge.forge.runForDist
@@ -21,6 +22,8 @@ object Baracumod {
     private val LOGGER = LogManager.getLogger(MODID)
 
     init {
+        ModCreativeModeTabs.register(MOD_BUS);
+
         ModItems.register(MOD_BUS)
         ModBlocks.register(MOD_BUS)
 

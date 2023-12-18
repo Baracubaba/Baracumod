@@ -10,8 +10,8 @@ import org.baracubaba.baracumod.Baracumod
 object ModItems {
     val ITEMS: DeferredRegister<Item> = DeferredRegister.create(ForgeRegistries.ITEMS, Baracumod.MODID)
 
-    val BARACUBAMIUM: RegistryObject<Item> = ITEMS.register("baracubamium") { Item(Item.Properties()) }
-    val RAW_BARACUBAMIUM: RegistryObject<Item> = ITEMS.register("raw_baracubamium") { Item(Item.Properties()) }
+    public val BARACUBAMIUM: RegistryObject<Item> = ITEMS.register("baracubamium") { Item(Item.Properties()) }
+    public val RAW_BARACUBAMIUM: RegistryObject<Item> = ITEMS.register("raw_baracubamium") { Item(Item.Properties()) }
 
     fun register(eventBus: IEventBus) {
         ITEMS.register(eventBus)
