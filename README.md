@@ -1,6 +1,7 @@
 # Baracumod
 **Luiz-AVcruz Mod Idea for Baracubaba**
 
+
 ## Overview
 This Minecraft mod project primarily utilizes [Kotlin](https://kotlinlang.org/), with the support of the [Kotlin for Forge library](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge). The scarcity of modding resources in Kotlin has led me to convert everything myself. My aim is not only to create an engaging mod but also to provide a comprehensive educational resource. Through detailed documentation, this mod is intended to simplify the Minecraft modding journey and to encourage the use of Kotlin in Minecraft mod development.
 
@@ -13,7 +14,8 @@ This Minecraft mod project primarily utilizes [Kotlin](https://kotlinlang.org/),
 ## Upcoming Plans
 - **Completing the Kotlin Tutorial:** Finish the tutorial with everything converted to Kotlin, guided by [Kaupenjoe's](https://www.youtube.com/@ModdingByKaupenjoe) excellent Java material.
 - **Establishing a Standard for New Kotlin Projects:** Work towards setting a standard for new projects developed in Kotlin.
-- **Detailed README:** A Standard structured and informative README will be developed soon to provide clearer context and guidance for this project.
+- **Detailed README:** A Standard structured and informative README will be developed soon to provide clearer context and guidance for this project. For a Portuguese version of the README, please see [Readme PTBR](https://github.com/Baracubaba/Baracumod/blob/main/README-PTBR.md).
 
 _Stay tuned for more updates and detailed documentation to facilitate your Minecraft modding experience in Kotlin._ 
+
 
