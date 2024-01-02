@@ -17,5 +17,3 @@ This Minecraft mod project primarily utilizes [Kotlin](https://kotlinlang.org/),
 - **Detailed README:** A Standard structured and informative README will be developed soon to provide clearer context and guidance for this project. For a Portuguese version of the README, please see [Readme PTBR](https://github.com/Baracubaba/Baracumod/blob/main/README-PTBR.md).
 
 _Stay tuned for more updates and detailed documentation to facilitate your Minecraft modding experience in Kotlin._ 
-
-
